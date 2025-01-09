@@ -31,6 +31,12 @@ body{
   @apply opacity-100 scale-100 blur-0 visible;
 }
 
-.nav-links{
-  @apply grid items-center h-9 px-4 text-sm font-medium;
+.nav-link{
+  @apply grid items-center h-9 px-4 text-sm 
+  font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 
+  transition-colors;
+}
+
+.nav-linl.active{
+  @apply text-zinc-900 duration-500;
 }
