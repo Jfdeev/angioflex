@@ -41,7 +41,7 @@ export default function Header() {
 
             <a 
             href="#contato" 
-            className="btn-contact max-md:hidden md:justify-self-end">
+            className="btn btn-secondary max-md:hidden md:justify-self-end">
                 Contato
             </a>
 
