@@ -13,6 +13,16 @@ body{
   @apply bg-zinc-900 text-zinc-50;
 }
 
+
+/*
+  Utilites
+*/
+
+.material-symbols-rounded {
+  @apply w-[item] h-[item] overflow-hidden;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 /*Componentes*/
 
 .menu-btn{
