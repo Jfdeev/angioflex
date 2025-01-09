@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Header() {
 
-    const [navOpen, setNavOpen] = useState(true);
+    const [navOpen, setNavOpen] = useState(false);
     return (
         <header className="fixed top-0 left-0 w-full h-20 flex 
         items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
@@ -19,7 +19,7 @@ export default function Header() {
                     <img 
                     src="https://media.licdn.com/dms/image/v2/D5603AQE6HsQNBgwvEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1679249908766?e=2147483647&v=beta&t=RLhNa12qaiLH6mIdy68hdIcgJjsEGzUBpKnUIRnEv7g" 
                     alt="logo-empresa"
-                    className="w-14 h-14 rounded-full" 
+                    className="w-14 h-14 rounded-sm" 
                     />
                 </a>
             </h1>
